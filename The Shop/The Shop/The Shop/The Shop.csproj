@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50CF0F57-4966-4C93-A180-ED77FDBEB15F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>The_Shop</RootNamespace>
+    <AssemblyName>The Shop</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddonControl.Designer.cs">
+      <DependentUpon>AddonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BeersControl.Designer.cs">
+      <DependentUpon>BeersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BingoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BingoControl.Designer.cs">
+      <DependentUpon>BingoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BurgersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BurgersControl.Designer.cs">
+      <DependentUpon>BurgersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CocktailsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CocktailsControl.Designer.cs">
+      <DependentUpon>CocktailsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CoffeeControl.Designer.cs">
+      <DependentUpon>CoffeeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CognacControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CognacControl.Designer.cs">
+      <DependentUpon>CognacControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerName.Designer.cs">
+      <DependentUpon>CustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FriesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FriesControl.Designer.cs">
+      <DependentUpon>FriesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FruitsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FruitsControl.Designer.cs">
+      <DependentUpon>FruitsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item Order.Designer.cs">
+      <DependentUpon>Item Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JuiceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="JuiceControl.Designer.cs">
+      <DependentUpon>JuiceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiquorsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LiquorsControl.Designer.cs">
+      <DependentUpon>LiquorsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainDishControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainDishControl.Designer.cs">
+      <DependentUpon>MainDishControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPitControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainPitControl.Designer.cs">
+      <DependentUpon>MainPitControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MilkControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MilkControl.Designer.cs">
+      <DependentUpon>MilkControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriveControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PriveControl.Designer.cs">
+      <DependentUpon>PriveControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaladControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaladControl.Designer.cs">
+      <DependentUpon>SaladControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SandwichControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SandwichControl.Designer.cs">
+      <DependentUpon>SandwichControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SlotsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SlotsControl.Designer.cs">
+      <DependentUpon>SlotsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SodaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SodaControl.Designer.cs">
+      <DependentUpon>SodaControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoucesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SoucesControl.Designer.cs">
+      <DependentUpon>SoucesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoupsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SoupsControl.Designer.cs">
+      <DependentUpon>SoupsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffControl.Designer.cs">
+      <DependentUpon>StaffControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table Selection.Designer.cs">
+      <DependentUpon>Table Selection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeaControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TeaControl.Designer.cs">
+      <DependentUpon>TeaControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLoginForm.Designer.cs">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIPControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VIPControl.Designer.cs">
+      <DependentUpon>VIPControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VodkasControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VodkasControl.Designer.cs">
+      <DependentUpon>VodkasControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaterControl.Designer.cs">
+      <DependentUpon>WaterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WhiskeyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WhiskeyControl.Designer.cs">
+      <DependentUpon>WhiskeyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinesControl.Designer.cs">
+      <DependentUpon>WinesControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddonControl.resx">
+      <DependentUpon>AddonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeersControl.resx">
+      <DependentUpon>BeersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BingoControl.resx">
+      <DependentUpon>BingoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BurgersControl.resx">
+      <DependentUpon>BurgersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CocktailsControl.resx">
+      <DependentUpon>CocktailsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoffeeControl.resx">
+      <DependentUpon>CoffeeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CognacControl.resx">
+      <DependentUpon>CognacControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerName.resx">
+      <DependentUpon>CustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FriesControl.resx">
+      <DependentUpon>FriesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FruitsControl.resx">
+      <DependentUpon>FruitsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Item Order.resx">
+      <DependentUpon>Item Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JuiceControl.resx">
+      <DependentUpon>JuiceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiquorsControl.resx">
+      <DependentUpon>LiquorsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainDishControl.resx">
+      <DependentUpon>MainDishControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPitControl.resx">
+      <DependentUpon>MainPitControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilkControl.resx">
+      <DependentUpon>MilkControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriveControl.resx">
+      <DependentUpon>PriveControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SaladControl.resx">
+      <DependentUpon>SaladControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SandwichControl.resx">
+      <DependentUpon>SandwichControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlotsControl.resx">
+      <DependentUpon>SlotsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SodaControl.resx">
+      <DependentUpon>SodaControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoucesControl.resx">
+      <DependentUpon>SoucesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoupsControl.resx">
+      <DependentUpon>SoupsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffControl.resx">
+      <DependentUpon>StaffControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table Selection.resx">
+      <DependentUpon>Table Selection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeaControl.resx">
+      <DependentUpon>TeaControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLoginForm.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIPControl.resx">
+      <DependentUpon>VIPControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VodkasControl.resx">
+      <DependentUpon>VodkasControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterControl.resx">
+      <DependentUpon>WaterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WhiskeyControl.resx">
+      <DependentUpon>WhiskeyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinesControl.resx">
+      <DependentUpon>WinesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,41 @@
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\bin\Debug\The Shop.exe.config
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\bin\Debug\The Shop.exe
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\bin\Debug\The Shop.pdb
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.Properties.Resources.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The Shop.csproj.GenerateResource.Cache
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The Shop.csproj.CoreCompileInputs.cache
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The Shop.exe
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The Shop.pdb
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.MainForm.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.UserLoginForm.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.Table_Selection.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.MainPitControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.PriveControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.BingoControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SlotsControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.StaffControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.Item_Order.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.AddonControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.BurgersControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.FriesControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.FruitsControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.MainDishControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SaladControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SandwichControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SoucesControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SoupsControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.BeersControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.CocktailsControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.CoffeeControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.CognacControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.JuiceControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.MilkControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.SodaControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.TeaControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.WaterControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.WinesControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.CustomerName.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.LiquorsControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.VIPControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.VodkasControl.resources
+C:\Users\new\Desktop\C#\The Shop\The Shop\The Shop\obj\Debug\The_Shop.WhiskeyControl.resources
